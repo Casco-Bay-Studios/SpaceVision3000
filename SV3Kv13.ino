@@ -2,7 +2,8 @@
 //Casco Bay Studios 2026
 //cascobaystudios.com
 //Hardware based on the Mini Video Player from Super Make Something: https://github.com/SuperMakeSomething/mini-video-player
-//software is original, made with AI assistance (don't hurt me)
+//Assemble per instructions on that page, altho the audio parts are not necessary for this build (audio jack, capacitor, volume pot)
+//Below software is original, made with AI assistance (don't hurt me)
 
 #include <WiFi.h>
 #include <HTTPClient.h>
