@@ -7,4 +7,5 @@ This project uses a PCB that was originally for a diferent project, namely https
 
 I wired up a few of them but then decided to try out some of the ESP32's other functions, like WIfi connectivity, and using APIs to collect data from the internet
 
-![PXL_20260213_232902652 1](https://github.com/user-attachments/assets/e0309546-5b52-4b40-b812-2509155a4bbc)
+
+![PXL_20260213_232950658 1](https://github.com/user-attachments/assets/b21051a5-1ddb-4fcf-afba-62574dca9b55)
