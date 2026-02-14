@@ -28,9 +28,21 @@ The code will check for updates to the images, launches, and exoplanet data
 
 ## Assembly and coding
 
-The project requires the same materials as used in the Mini Video Player at the link above. I made it a bit differently, by soldering female headers on for the ST7735 and female stacking headers for the ESP32 on the back of the board. This was so if I fried the ST7735 by accident (voic of experience) or the ESP32 I could replace it with a new one. I also designed a small enclosure for it and 3D printed it but it is fairly specific to the way I assembled the board. I think future versions could use the PCB but wire the buttons and pots and power switch to the outside of the enclosure for a more polished look. 
+The project requires the same materials as used in the Mini Video Player at the link above. I made it a bit differently, by soldering female headers on for the ST7735 and female stacking headers for the ESP32 on the back of the board. This was so if I fried the ST7735 by accident (voice of experience) or the ESP32 I could replace it with a new one. I also designed a small enclosure for it and 3D printed it but it is fairly specific to the way I assembled the board. I think future versions could use the PCB but wire the buttons and pots and power switch to the outside of the enclosure for a more polished look. 
 
 The code was created with the help of various AI tools, with a lot of tweaking. The final code is probably prettty clunky but it works! 
+
+You will need to include several libraries, and the custom font, LuckiestGuy (or other font you want to use). Include the font as a separate tab with your code, in the Arduino IDE. Libraries needed: 
+--WiFi
+--HTTPClient
+--WiFiClientSecure
+--ArduinoJson
+--TFT_eSPI
+--TJpg_Decoder
+--time
+--WiFiManager
+
+WIth TFT_eSPI you also need to configure the User_Setup.h file to match your display. If you use the same screen as in the Mini VIdeo PLayer you just set it up as a 160 x 128 st7735, green tab version. I used GREENTAB2 but I think others will work too. 
 
 ## Wifi connectivity
 
