@@ -8,7 +8,7 @@ This project uses a PCB that was originally for a diferent project, namely https
 
 I wired up a few of them but then decided to try out some of the ESP32's other functions, like WIfi connectivity, and using APIs to collect data from the internet.
 
-If you like this project please consider leaving me a subscribe at my [YouTube page](https://youtube.com/@CascoBayStudios)
+If you like this project please consider leaving me a subscribe at my [YouTube page](https://youtube.com/@CascoBayStudios). I mostly make toy elevators so you can check out a bunch of videos on those, over there! So, on to the SV3K! 
 
 ![PXL_20260213_232950658 1](https://github.com/user-attachments/assets/b21051a5-1ddb-4fcf-afba-62574dca9b55)
 
