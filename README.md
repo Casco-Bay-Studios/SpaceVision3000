@@ -10,11 +10,12 @@ I wired up a few of them but then decided to try out some of the ESP32's other f
 
 What does it do?
 
-In a nutshell, SV3K displays data and imagery from various sources. You can click thru the data screens with the NEXT button, and display metadata with the PREV button.
-Astronomy PIcture of the Day (NASA)
-The next 3 rocket launches worldwide (thespacedevs.com)
-The most recent exoplanets discovered (NASA)
-The earth from space, single view and multi-view (NASA)
-Different views of the sun (NASA)
+In a nutshell, SV3K displays data and imagery from various sources. You can click thru the data screens with the NEXT button, and display metadata with the PREV button. In order the screens show:
+
+-Astronomy PIcture of the Day (NASA)
+-The next 3 rocket launches worldwide (thespacedevs.com)
+-The most recent exoplanets discovered (NASA)
+-The earth from space, single view and multi-view (NASA)
+-Different views of the sun (NASA)
 
 It also has 2 different screensavers after 10 minutes of inactivity, a blackhole moving thru the void, and a starfall that dissolves the current screen. 
