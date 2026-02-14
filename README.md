@@ -4,7 +4,7 @@
 
 **SpaceVision 3000** is a compact desktop visualizer for various space-related data and imagery using ESP32, APIs, and wifi. 
 
-This project uses a PCB that was originally for a diferent project, namely https://github.com/supermakesomething/mini-video-player
+This project uses a PCB that was originally for a different project, namely https://github.com/supermakesomething/mini-video-player
 
 I wired up a few of them but then decided to try out some of the ESP32's other functions, like WIfi connectivity, and using APIs to collect data from the internet.
 
@@ -48,10 +48,10 @@ WIth TFT_eSPI you also need to configure the User_Setup.h file to match your dis
 
 ## Wifi connectivity
 
-**API:** You will need to get a NASA API in order to retrieve some of the data. It is free and very easy to do, just go to [https://api.nasa.gov/](https://api.nasa.gov/). Once you have the API, plug it into the code, here: `const char* nasaKey = "YOUR NASA API";.` 
+**API:** You will need to get a NASA API key in order to retrieve some of the data. It is free and very easy to do, just go to [https://api.nasa.gov/](https://api.nasa.gov/). Once you have the API key, plug it into the code, here: `const char* nasaKey = "YOUR NASA API";.` 
 
 **WIFI:** At first boot, the ESP32 will create a wifi hotspot (access point), that you will need to connect to in order to connect the ESP32 to your wifi network. You can change the name of the access point and password if you want. 
 
-There are plenty of parameters to play with, including the colors of the text, the number of stars in the screensavers, speed of teh black hole, etc. You could also add other screens, sine NASA has a bunch more data points yuou can retrieve like Near Earth Objects and other satellite imagery. 
+There are plenty of parameters to play with, including the colors of the text, the number of stars in the screensavers, speed of the black hole, etc. You could also add other screens, since NASA has a bunch more data points yuou can retrieve like Near Earth Objects and other satellite imagery. 
 
 Have fun! 
