@@ -24,7 +24,7 @@ If you like this project please consider leaving me a subscribe at my [YouTube p
 
 It also has 2 different screensavers after 10 minutes of inactivity, a blackhole moving thru the void, and a starfall that dissolves the current screen. 
 
-The code will check for updates to the images, launches, and exoplanet data
+The code will check for updates to the images, launches, and exoplanet data every 2 hours. It will also disconnect from wifi when the screensaver is going to save battery. 
 
 ## Assembly and coding
 
@@ -35,14 +35,14 @@ I also added a [Sparkfun LiPo charger/booster](https://www.sparkfun.com/sparkfun
 The code was created with the help of various AI tools, with a lot of tweaking. The final code is probably prettty clunky but it works! 
 
 You will need to include several libraries, and the custom font, LuckiestGuy (or other font you want to use). Include the font as a separate tab with your code, in the Arduino IDE. Libraries needed: 
---WiFi
---HTTPClient
---WiFiClientSecure
---ArduinoJson
---TFT_eSPI
---TJpg_Decoder
---time
---WiFiManager
+- WiFi
+- HTTPClient
+- WiFiClientSecure
+- ArduinoJson
+- TFT_eSPI
+- TJpg_Decoder
+- time
+- WiFiManager
 
 WIth TFT_eSPI you also need to configure the User_Setup.h file to match your display. If you use the same screen as in the Mini VIdeo PLayer you just set it up as a 160 x 128 st7735, green tab version. I used GREENTAB2 but I think others will work too. 
 
@@ -53,3 +53,5 @@ WIth TFT_eSPI you also need to configure the User_Setup.h file to match your dis
 **WIFI:** At first boot, the ESP32 will create a wifi hotspot (access point), that you will need to connect to in order to connect the ESP32 to your wifi network. You can change the name of the access point and password if you want. 
 
 There are plenty of parameters to play with, including the colors of the text, the number of stars in the screensavers, speed of teh black hole, etc. You could also add other screens, sine NASA has a bunch more data points yuou can retrieve like Near Earth Objects and other satellite imagery. 
+
+Have fun! 
